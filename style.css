@@ -1,3 +1,164 @@
+img {
+  width: 100%;
+  height: auto;
+}
 body {
-  color: red;
+  background: #e1e1e1;
+}
+
+h1 {
+  font-family: 'Abhaya Libre', serif;
+  font-weight: bolder;
+  text-align: center;
+  color: #232121;
+}
+
+h2.body {
+  font-family: 'Abhaya Libre', serif;
+  font-weight: bolder;
+  color: #e1e1e1
+}
+
+ p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-family: 'lora', serif;
+  font-weight: bold;
+  color: #232121;
+}
+
+.nav-links {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 80%;
+  margin: 1em auto;
+}
+
+.main-nav {
+  background: #e1e1e1;
+  padding: .5em;
+}
+
+.nav-links a {
+  font-family:'Lora', serif;
+  color: #222;
+  text-decoration: none;
+
+}
+
+.row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.row a {
+  font-family: 'lora', serif;
+  font-weight: bolder;
+  color: #222;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  text-decoration: none;
+}
+
+hr {
+  color: #828B94;
+  margin-top: 2em;
+  margin-bottom: 2em;
+}
+
+.about-gallery-title {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: left;
+}
+.for-prof-title {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: left;
+
+}
+
+.contact-title {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: left;
+}
+
+h3 {
+font-family: 'Abhaya Libre', serif;
+font-weight: bolder;
+display: flex;
+justify-content: center;
+text-align: center;
+}
+
+.grid-wrap {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.grid-wrap p {
+
+}
+
+.main-sub-text p {
+  font-weight: lighter;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.about-gallery-text a {
+  color: #222;
+  padding: .5em;
+  font-family: "lora", serif;
+ font-weight: lighter;
+ display: flex;
+ flex-direction: column;
+ justify-content: flex-start;
+ align-items: flex-start;
+ text-decoration: none;
+
+}
+
+ .for-professionals-text a {
+   color: #222;
+   padding: .5em;
+   font-family: "lora", serif;
+   font-weight: lighter;
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   align-items: left;
+   text-decoration: none;
+ }
+
+ .contact-us-text a {
+   color: #222;
+   padding: .5em;
+   font-family: "lora", serif;
+   font-weight: lighter;
+   display: flex;
+   flex-direction: column;
+   justify-content: flex-start;
+   align-items: flex-end;
+   text-decoration: none;
+ }
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: .5em;
+  background-color: #2D4839;
+  color: white;
 }
